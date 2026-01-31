@@ -1,0 +1,13 @@
+mingw/
+wine/
+ninja
+*.o
+*.elf
+*.so
+*.dll
+*.bin
+*.iso
+*.img
+*.exe
+isodir/
+out/

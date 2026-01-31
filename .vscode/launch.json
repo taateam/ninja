@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug ninja (no build)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/ninja",
+      "args": ["winapp.exe"],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+
+      
+      "preLaunchTask": ""
+    }
+  ]
+}
